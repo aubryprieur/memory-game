@@ -1,19 +1,15 @@
-.square {
-  width: 200px;
-  height: 200px;
-  border-style: solid;
-  border-color: black;
-}
-
 .grid {
   display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  width: 618px;
-  height: 618px;
+  flex-wrap: wrap;
+  height: 310px;
+  width: 410px;
 }
 
-.mole {
-  background-image: url('frog.jpeg');
-  background-size: cover;
+img {
+  border: 0.5px solid grey;
+}
+
+.center {
+  margin: auto;
+  text-align: center;
 }
