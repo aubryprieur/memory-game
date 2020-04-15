@@ -7,10 +7,21 @@
   <script src="app.js" charset="utf-8"></script>
 </head>
 <body>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <a class="navbar-brand" href="">Whack a whole</a>
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a onClick="window.location.reload();" class="nav-link" href="">Restart</a>
+      </li>
+    </ul>
+  </nav>
   <div class="center">
     <h1>Memory Game</h1>
     <h3>Score:<span id="result"></span></h3>
     <div class="grid center">
+    </div>
+    <div class="center refresh-btn">
+      <button onClick="window.location.reload();" class="btn btn-dark">Restart</button>
     </div>
   </div>
 </body>
